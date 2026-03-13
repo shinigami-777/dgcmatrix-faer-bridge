@@ -1,6 +1,6 @@
 ## dgcmatrix-faer-bridge
 
-This demonstrates the pattern for conversion of dgcmatrix (R Matrix package) to faer parse matrix representation. \
+This demonstrates the pattern for conversion of dgcmatrix (R Matrix package) to faer sparse matrix representation. \
 The dgcmatrix in R stores sparse matrices in CSC format with three slots:
 - `x` — non-zero values
 - `i` — row indices (0-based internally)
